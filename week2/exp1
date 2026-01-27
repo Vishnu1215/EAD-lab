@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student registration portal</title>
+    </head>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Student name:</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label>Roll number:</label></td>
+                    <td><input type="text" name="roll"></td>
+                </tr>
+                <tr>
+                    <td><label>Email ID:</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone number:</label></td>
+                    <td><input type="tel" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="gender" value="male">male
+                    <input type="radio" name="gender" value="female">female</td>
+                </tr>
+                <tr>
+                    <td><label>Branch:</label></td>
+                    <td><select name="Branch" id="branch">
+                    <option value="IT">IT</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="AI&DS">AI&DS</option>
+                    </select></td>
+                </tr>
+            </table>
+            <button type="submit">submit</button>
+        </form>
+    </body>
+</html>
