@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tiTle>
+            mern stack
+        </tiTle>
+    </head>
+    <body>
+        <h1><b>
+            INTRODUCTION TO MERN STACK</b>
+        </h1>
+        <p>
+            The MERN stack is a popular, open-source technology stack for building dynamic, full-stack web applications using a single programming language: JavaScript.<br> The acronym MERN stands for MongoDB, Express.js, React, and Node.js, with each component handling a specific layer of the development process. 
+        </p>
+        <h3>
+            ordered list of technologies
+        </h3>
+        <p>
+            mongoDB<br>express JS<br>react JS<br>node js    
+        </p>
+        <img src="c:\Users\STUDENT\Downloads\images1.png">
+        <a href="https://www.mongodb.com/resources/languages/mern-stack">click here for mongoDB</a>
+    </body>
+</html>
