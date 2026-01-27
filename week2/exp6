@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>vishnu teja karampuri</h1>
+    <p>
+        Email: vishnuteja@email.com <br>
+        Phone: +91-7815xxxxxx <br>
+        Location:Hyderabad
+    </p>
+    <h2>About Me</h2>
+    <p>
+        I am a motivated and enthusiastic individual eager to learn new technologies
+        and build a strong career in the field of web development.
+    </p>
+    <h2>Education</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>Narayana jr.college</td>
+            <td>2024</td>
+        </tr>
+        <tr>
+            <td>Higher Secondary</td>
+            <td>Siddharta school</td>
+            <td>2022</td>
+        </tr>
+    </table>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>Problem Solving</li>
+        <li>C,C++</li>
+    </ul>
+</body>
+</html>
