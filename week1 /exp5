@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1>About Me</h1>
+        <div>
+            <p>Name : <b>Vishnu</b> <b>Teja</b> <b>Karampuri</b></p>
+            <p>Branch : <i>Information Technology</i></p>
+            <p>College : Chaitanya Bharathi Institute of Technology</p>
+        </div>
+        <div>
+            <p>Languages :</p>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+        <div>
+            <h3>My Profile Picture</h3>
+            <a href="vishnuteja.karampuri15@gmail.com"><img src="C:\Users\hari\OneDrive\Pictures\a.jpg" alt=""></a>
+        </div>
+    </body>
+</html>
