@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           div {
+            width: 500px;
+            border: 30px solid lawngreen;
+            padding: 50px;
+            margin: 20px;
+            height: 150px;
+            font-size: 40px;
+            box-shadow: 5px 10px;
+            border-radius: 25px;
+            font-family:'Courier New', Courier, monospace;
+            background-color:gray;
+            }
+        </style>
+    </head>
+    <h1>Profile Card</h1>
+    <div>Student Name:Vishnu<br>Roll number:112<br>Department:IT</div>
+</html>
