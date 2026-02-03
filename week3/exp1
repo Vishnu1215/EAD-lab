@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                background-color: lightblue;
+            }
+            h1{
+                color: crimson;
+            }
+            button{
+                font-size: 50px ;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>CSS Introduction</h1>
+        <p>CSS is the language we use to style a Web page.</p>
+        <button type="button">Click Me!</button>
+    </body>
+</html>
