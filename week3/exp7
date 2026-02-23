@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header,
+        .footer {
+            width: 100%;
+            height: 100px;
+        }
+
+        .header { background-color: darkblue; }
+        .footer { background-color: aqua; }
+
+        .middle {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 10%;
+            background-color: red;
+        }
+
+        .content {
+            width: 90%;
+            background-color: cornflowerblue;
+        }
+
+        .middle > div {
+            height: calc(100vh - 200px);
+        }
+
+        .xyz {
+            rotate: -90deg;
+        }
+    </style>
+</head>
+<body>
+    <div class="header container">
+        <p>This is Header</p>
+    </div>
+
+    <div class="middle">
+        <div class="sidebar container">
+            <p class="xyz">Side bar</p>
+        </div>
+        <div class="content container">
+            <p>Main Content</p>
+        </div>
+    </div>
+
+    <div class="footer container">
+        <p>Footer</p>
+    </div>
+</body>
+</html>
