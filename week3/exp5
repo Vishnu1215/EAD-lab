@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box01, .box02, .box03 {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+        }
+
+        .box01 { background-color: blue; }
+        .box02 { background-color: red; }
+        .box03 { background-color: yellow; }
+
+        .con1 {
+            background-color: skyblue;
+            position: static;
+        }
+
+        .con2 {
+            background-color: yellowgreen;
+            position: relative;
+            left: 30px;
+        }
+
+        .con3 {
+            background-color: pink;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .con4 {
+            background-color: greenyellow;
+            position: absolute;
+            bottom: 100px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con1">
+        <div class="box01"></div>
+        <div class="box02"></div>
+        <div class="box03"></div>
+    </div>
+
+    <div class="con2">
+        <div class="box01"></div>
+        <div class="box02"></div>
+        <div class="box03"></div>
+    </div>
+
+    <div class="con3">
+        <div class="box01"></div>
+        <div class="box02"></div>
+        <div class="box03"></div>
+    </div>
+
+    <div class="con4">
+        <div class="box01"></div>
+        <div class="box02"></div>
+        <div class="box03"></div>
+    </div>
+</body>
+</html>
