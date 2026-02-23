@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            width: 15%;
+            padding: 20px;
+            background-color: grey;
+            border-radius: 5%;
+            box-shadow: 5px 5px black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form > div {
+            margin: 10px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            border: solid gray;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        button:hover {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Username</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="text">
+        </div>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
