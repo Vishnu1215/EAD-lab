@@ -1,0 +1,33 @@
+const fs=require('fs');
+console.log('write into existing file');
+fs.writeFile('data.txt',`#student 1
+name:vishnu teja
+class: IT-2
+roll no: 160124737112
+subject: EAD
+marks: 16
+
+#student 2
+name:balraju
+class: IT-2
+roll no: 160124737114
+subject: EAD
+marks: 16`,'utf-8',(err)=>{
+    if(err){
+        console.error('Error occurred while writing to file');
+    }
+    else{
+        console.log('Content written to file successfully');
+        console.log('Reading the updated file content:');
+        
+        fs.readFile('data.txt','utf-8',(err,data)=>{
+            if(err){
+                console.error('Error occurred while reading the file');
+            }
+            else{
+                console.log('Updated file content:');
+                console.log(data);
+            }
+        });
+    }
+});
